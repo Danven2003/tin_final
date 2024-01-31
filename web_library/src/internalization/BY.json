@@ -1,0 +1,84 @@
+{
+  "barPage": {
+    "home": "Галоўная",
+    "profile": "Профіль",
+    "logIn": "Увайсці",
+    "register": "Рэгістрацыя"
+  },
+  "feedPage": {
+    "readMore": "Чытаць",
+    "delete": "Выдаліць"
+  },
+  "paginationPage": {
+    "next": "Наступная",
+    "previous": "Папярэдняя"
+  },
+  "loginPage": {
+    "emailPlaceholder": "Электронная пошта",
+    "passwordPlaceholder": "Пароль",
+    "dontHaveAccount": "Яшчэ няма ўліковага запісу? Стварыце адзін",
+    "logIn": "Увайсці"
+  },
+  "articlePage": {
+    "backToAll": "Вярнуцца да ўсіх кніг",
+    "title": "Назва",
+    "price": "Цана",
+    "description": "Апісанне",
+    "contactInformation": "Кантактная інфармацыя",
+    "email": "Электронная пошта",
+    "phone": "Тэлефон",
+    "bookInFavourites": "Кніга ўжо ў абраным",
+    "likeBook": "Лайкнуць кнігу",
+    "dontHaveAccount": "Яшчэ няма ўліковага запісу? Стварыце адзін",
+    "haveAccount": "Ужо ёсць уліковы запіс? Увайдзіце"
+  },
+  "registrationPage": {
+    "emailPlaceholder": "Электронная пошта",
+    "passwordPlaceholder": "Пароль",
+    "usernamePlaceholder": "Імя карыстальніка",
+    "namePlaceholder": "Імя",
+    "surnamePlaceholder": "Прозвішча",
+    "placeOfLivingPlaceholder": "Месца жыхарства",
+    "telephonePlaceholder": "Тэлефон",
+    "sexLabel": "Пол",
+    "maleOption": "Мужчына",
+    "femaleOption": "Жанчына",
+    "register": "Рэгістрацыя",
+    "haveAccount": "Ужо ёсць уліковы запіс? Увайдзіце"
+  },
+  "profilePage": {
+    "username": "Імя карыстальніка",
+    "name": "Імя",
+    "surname": "Прозвішча",
+    "telephone": "Тэлефон",
+    "registrationDate": "Дата рэгістрацыі",
+    "sex": "Пол",
+    "role": "Роля",
+    "createArticle": "Стварыць артыкул",
+    "favoriteBooks": "Улюбёныя кнігі",
+    "myBooks": "Мае кнігі",
+    "logout": "Выйсці",
+    "email": "Электронная пошта"
+  },
+  "createArticlePage": {
+    "createArticle": {
+      "titleLabel": "Загаловак",
+      "descriptionLabel": "Апісанне",
+      "priceLabel": "Цана",
+      "imageLabel": "Выява",
+      "emailLabel": "Электронная пошта",
+      "phoneLabel": "Тэлефон",
+      "createButton": "Стварыць",
+      "backToAll": "Вярнуцца да ўсіх кніг"
+    },
+    "createArticleError": {
+      "invalidEmail": "Няправільны фармат электроннай пошты.",
+      "invalidPrice": "Цана павінна быць больш за нуль.",
+      "invalidDescription": "Апісанне павінна быць не менш за 10 знакоў.",
+      "invalidTitle": "Загаловак павінен быць не менш за 3 знакі.",
+      "invalidContactPhone": "Кантактны тэлефон павінен мець не менш за 9 знакаў.",
+      "allFieldsRequired": "Усе палі абавязковыя для запаўнення."
+    }
+  }
+}
+

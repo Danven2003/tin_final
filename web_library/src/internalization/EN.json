@@ -1,0 +1,84 @@
+{
+  "barPage": {
+    "home": "Home",
+    "profile": "Profile",
+    "logIn": "Log in",
+    "register": "Register"
+  },
+  "feedPage": {
+    "readMore": "Read more",
+    "delete": "Delete"
+  },
+  "paginationPage": {
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "loginPage": {
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "logIn": "Log in",
+    "dontHaveAccount": "Don't have an account? Create one"
+  },
+  "registrationPage": {
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "usernamePlaceholder": "Username",
+    "namePlaceholder": "Name",
+    "surnamePlaceholder": "Surname",
+    "placeOfLivingPlaceholder": "Place of Living",
+    "telephonePlaceholder": "Telephone",
+    "sexLabel": "Sex",
+    "maleOption": "Male",
+    "femaleOption": "Female",
+    "register": "Register",
+    "haveAccount": "Already have account? Log in"
+  },
+  "profilePage": {
+    "username": "Username",
+    "name": "Name",
+    "surname": "Surname",
+    "telephone": "Telephone",
+    "registrationDate": "Date of registration",
+    "sex": "Sex",
+    "role": "Role",
+    "createArticle": "Create Article",
+    "favoriteBooks": "Favorite Books",
+    "myBooks": "My Books",
+    "logout": "Logout",
+    "email": "Email"
+  },
+  "articlePage": {
+    "backToAll": "Back to all books",
+    "title": "Title",
+    "price": "Price",
+    "description": "Description",
+    "contactInformation": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "bookInFavourites": "Book already in favorites",
+    "likeBook": "Like Book",
+    "dontHaveAccount": "Don't have an account? Create one",
+    "haveAccount": "Already have an account? Log in"
+  },
+  "createArticlePage": {
+    "createArticle": {
+      "titleLabel": "Title",
+      "descriptionLabel": "Description",
+      "priceLabel": "Price",
+      "imageLabel": "Image",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "contactInformation": "Contact information",
+      "createButton": "Create",
+      "backToAll": "Back to all books"
+    },
+    "createArticleError": {
+      "invalidEmail": "Invalid email format.",
+      "invalidPrice": "Price should be greater than zero.",
+      "invalidDescription": "Description should be at least 10 characters long.",
+      "invalidTitle": "Title should be at least 3 characters long.",
+      "invalidContactPhone": "Contact phone should be at least 9 characters long.",
+      "allFieldsRequired": "All fields are required."
+    }
+  }
+}

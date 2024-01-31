@@ -1,0 +1,85 @@
+{
+  "barPage": {
+    "home": "Главная",
+    "profile": "Профиль",
+    "logIn": "Войти",
+    "register": "Регистрация"
+  },
+  "feedPage": {
+    "readMore": "Читать далее",
+    "delete": "Удалить"
+  },
+  "paginationPage": {
+    "next": "Следующая",
+    "previous": "Предыдущая"
+  },
+  "loginPage": {
+    "emailPlaceholder": "Электронная почта",
+    "passwordPlaceholder": "Пароль",
+    "logIn": "Войти",
+    "dontHaveAccount": "Нет аккаунта? Создать"
+  },
+  "registrationPage": {
+    "emailPlaceholder": "Электронная почта",
+    "passwordPlaceholder": "Пароль",
+    "usernamePlaceholder": "Имя пользователя",
+    "namePlaceholder": "Имя",
+    "surnamePlaceholder": "Фамилия",
+    "placeOfLivingPlaceholder": "Место жительства",
+    "telephonePlaceholder": "Телефон",
+    "sexLabel": "Пол",
+    "maleOption": "Мужчина",
+    "femaleOption": "Женщина",
+    "register": "Зарегистрироваться",
+    "haveAccount": "Ужо есть акканут? Войдите"
+  },
+  "profilePage": {
+    "username": "Имя пользователя",
+    "name": "Имя",
+    "surname": "Фамилия",
+    "telephone": "Телефон",
+    "registrationDate": "Дата регистрации",
+    "sex": "Пол",
+    "role": "Роль",
+    "createArticle": "Создать статью",
+    "favoriteBooks": "Избранные книги",
+    "myBooks": "Мои книги",
+    "logout": "Выйти",
+    "email": "Электронная почта"
+  },
+  "articlePage": {
+    "backToAll": "Вернуться ко всем книгам",
+    "title": "Название",
+    "price": "Цена",
+    "description": "Описание",
+    "contactInformation": "Контактная информация",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "bookInFavourites": "Книга уже в избранном",
+    "likeBook": "Поставить лайк",
+    "dontHaveAccount": "Еще нет аккаунта? Создайте один",
+    "haveAccount": "Уже есть аккаунт? Войдите"
+  },
+
+  "createArticlePage": {
+    "createArticle": {
+      "titleLabel": "Заголовок",
+      "descriptionLabel": "Описание",
+      "priceLabel": "Цена",
+      "imageLabel": "Изображение",
+      "emailLabel": "Электронная почта",
+      "phoneLabel": "Телефон",
+      "createButton": "Создать",
+      "backToAll": "Вернуться ко всем книгам"
+    },
+
+    "createArticleError": {
+      "invalidEmail": "Неверный формат электронной почты.",
+      "invalidPrice": "Цена должна быть больше нуля.",
+      "invalidDescription": "Описание должно содержать как минимум 10 символов.",
+      "invalidTitle": "Заголовок должен содержать как минимум 3 символа.",
+      "invalidContactPhone": "Контактный телефон должен содержать как минимум 9 символов.",
+      "allFieldsRequired": "Все поля обязательны для заполнения."
+    }
+  }
+}

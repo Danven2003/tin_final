@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: your_root_password
+      MYSQL_DATABASE: your_database_name
+      MYSQL_USER: your_username
+      MYSQL_PASSWORD: your_password
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  node-js-server-side:
+    build:
+      context: ./node-js-server-side
+      dockerfile: Dockerfile
+    container_name: node_js_server
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mysql
+
+  web_library:
+    build:
+      context: ./web_library
+      dockerfile: Dockerfile
+    container_name: web_library_vue
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - node-js-server-side
+
+volumes:
+  mysql_data:
