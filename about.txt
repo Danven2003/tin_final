@@ -1,0 +1,22 @@
+My project is an open-source platform for selling books, where users can create articles for selling books, add books to favorites, and manipulate them. There are three roles within the system:
+
+Guest: Users in this role can view data, get more information about books, login, and register.
+User: Users with this role must be logged in. They can sell books, add to favorites/remove from favorites, and remove their own books.
+Admin: Users with the admin role can delete any books they want. They must have the 'admin' role to access this functionality.
+The project supports internalization in English, Belarusian, and Russian, with each page and word localized using the i18n technology.
+
+Pagination is implemented such that it adapts to the number of pages and retrieves data from the backend server and database based on the page settings, optimizing memory usage by returning only necessary data.
+
+The frontend is developed using Vue.js, a modern framework similar to Angular and React, chosen for its aesthetic appeal and ease of use.
+
+Validation forms are implemented for the Registration page and CreateArticle page, validating multiple fields and backed by backend validation as well.
+
+The database schema includes three tables: User, Book, and a many-to-many relationship table named FavouriteBooks, which includes a non-trivial field 'date'.
+
+Full CRUD (Create, Read, Update, Delete) methods are implemented for all tables and also big number of additional methods.
+
+The frontend is logically divided into components to maintain logical separation, including axios for HTTP requests, mutations for state management, pages for routing, and helper methods.
+
+The backend is logically organized with different routes, exception handling, and methods focused on data retrieval and manipulation rather than business logic.
+
+All data seeding is done automatically with synchronization, because of using blob for images data that may not be ideal for production but is sufficient for a university project in my pint of view.
